@@ -102,12 +102,17 @@ menu_drink_hot_coffee_subcategory = [
     (1, "Americanos", "hot-coffee"),
     (2, "Brewed Coffees", "hot-coffee"),
     (3, "Cappuccinos", "hot-coffee"),
-    (4, "Espresso Shots", "hot-coffee")
+    (4, "Espresso Shots", "hot-coffee"),
+    (5, "Flat Whites", "hot-coffee"),
+    (6, "Lattes", "hot-coffee"),
+    (7, "Macchiatos", "hot-coffee"),
+    (8, "Mochas", "hot-coffee"),
+    (9, "Travelers", "hot-coffee"),
     # Add more items as needed
 ]
 
 menu_drink_hotcoffee = [
-    (1, "Caffe Americano", 1.99, "enter desc", "hot-coffee"),
+    (1, "Caffe Americano", 0.00, "enter desc", "hot-coffee"),
     (2, "Featured Blonde Roast", 0.00, "enter desc", "hot-coffee"),
     (2, "Featured Medium Roast Pike Place Roast", 0.00, "enter desc", "hot-coffee"),
     (2, "Featured Dark Roast Sumatra", 0.00, "enter desc", "hot-coffee"),
@@ -121,10 +126,27 @@ menu_drink_hotcoffee = [
     (2, "Reserve1", 0.00, "enter desc", "hot-coffee"),
     (2, "Reserve2", 0.00, "enter desc", "hot-coffee"),
     (3, "Cappuccino", 0.00, "enter desc", "hot-coffee"),
-    # (4),
-    # (4),
-    # (5),
-    # (5),
+    (4, "Espresso", 0.00, "enter desc", "hot-coffee"),
+    (4, "Espresso Con Panna", 0.00, "enter desc", "hot-coffee"),
+    (5, "Flat White", 0.00, "enter desc", "hot-coffee"),
+    (5, "Honey Almondmilk Flat White", 0.00, "enter desc", "hot-coffee"),
+    (6, "Pumpkin Spice Latte", 0.00, "enter desc", "hot-coffee"),
+    (6, "Oleato Caffe Latte with Oatmilk", 0.00, "enter desc", "hot-coffee"),
+    (6, "Caffe Latte", 0.00, "enter desc", "hot-coffee"),
+    (6, "Connamon Dolce Latte", 0.00, "enter desc", "hot-coffee"),
+    (6, "Starbucks Reserve Latte", 0.00, "enter desc", "hot-coffee"),
+    (6, "Starbucks Reserve Hazelnut Bianco Latte", 0.00, "enter desc", "hot-coffee"),
+    (6, "Starbucks Blonde Vanilla Latte", 0.00, "enter desc", "hot-coffee"),
+    (7, "Apple Crisp Oatmilk Macchiato", 0.00, "enter desc", "hot-coffee"),
+    (7, "Caramel Macchiato", 0.00, "enter desc", "hot-coffee"),
+    (7, "Espresso Macchiato", 0.00, "enter desc", "hot-coffee"),
+    (8, "Caffe Mocha", 0.00, "enter desc", "hot-coffee"),
+    (8, "Starbucks reserve Dark Chocolate Mocha", 0.00, "enter desc", "hot-coffee"),
+    (8, "White Chocolate Mocha", 0.00, "enter desc", "hot-coffee"),
+    (9, "Veranda", 0.00, "enter desc", "hot-coffee"),
+    (9, "Dark Roast", 0.00, "enter desc", "hot-coffee"),
+    (9, "Pike Place", 0.00, "enter desc", "hot-coffee"),
+    (9, "Decaf Pike", 0.00, "enter desc", "hot-coffee"),
 ]
 
 
