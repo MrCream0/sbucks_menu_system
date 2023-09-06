@@ -291,6 +291,50 @@ menu_drink_iced_tea = [
 
 ]
 
+menu_drink_cold_drink_subcategory = [
+    (1, "Refreshers", "cold-drink"),
+    (2, "Juice", "cold-drink"),
+    (3, "Milk", "cold-drink"),
+    (4, "Sparkling Water", "cold-drink"),
+    (5, "Water", "cold-drink"),
+]
+
+menu_drink_cold_drink = [
+    (1, "Frozen Pineapple Passionfruit Lemonade Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Frozen Strawberry Acai Lemonade Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Frozen Mango Dragonfruit Lemonade Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Paradise Drink Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Pineapple Passionfruit Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Pineapple Passionfruit Lemonade Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Pink Drink Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Strawberry Acai Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Strawberry Acai Lemonade Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Dragon Drink Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Mango Dragonfruit Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (1, "Mango Dragonfruit Lemonade Starbucks Refreshers Beverage", 0.00, "enter desc", "cold-drink"),
+    (2, "Starbucks Baya Energy Mango Guava", 0.00, "enter desc", "cold-drink"),
+    (2, "Evolution Fresh Organic Vital Berry", 0.00, "enter desc", "cold-drink"),
+    (2, "Evolution Fresh Organic Defense Up", 0.00, "enter desc", "cold-drink"),
+    (2, "Evolution Fresh Orange", 0.00, "enter desc", "cold-drink"),
+    (2, "Evolution Fresh Organic Super Fruit Greens", 0.00, "enter desc", "cold-drink"),
+    (2, "Evolution Fresh Mighty Watermelon", 0.00, "enter desc", "cold-drink"),
+    (2, "Tree Top Apple Juice Box", 0.00, "enter desc", "cold-drink"),
+    (2, "Starbucks Baya Energy Rasberry Lime", 0.00, "enter desc", "cold-drink"),
+    (2, "Lemonade", 0.00, "enter desc", "cold-drink"),
+    (2, "Blended Strawberry Lemonade", 0.00, "enter desc", "cold-drink"),
+    (3, "Horizon Organic Chocolate Milk", 0.00, "enter desc", "cold-drink"),
+    (3, "Horizon Organic Lowfat Milk", 0.00, "enter desc", "cold-drink"),
+    (3, "Horizon Organic Vanilla Milk", 0.00, "enter desc", "cold-drink"),
+    (3, "Cold Milk", 0.00, "enter desc", "cold-drink"),
+    (5, "Galvania Sparkling Water", 0.00, "enter desc", "cold-drink"),
+    (5, "Spindrift Grapefruit Sparking Water", 0.00, "enter desc", "cold-drink"),
+    (5, "Spindrift Raspberry Lime Sparkling Water", 0.00, "enter desc", "cold-drink"),
+    (5, "Galvania Sparkling Water Lime", 0.00, "enter desc", "cold-drink"),
+    (6, "Dasani Bottled Water", 0.00, "enter desc", "cold-drink"),
+    (6, "Ethos Bottled Water", 0.00, "enter desc", "cold-drink"),
+    (6, "Hawai'i Volcanic Water", 0.00, "enter desc", "cold-drink"),
+]
+
 menu_items =\
     menu_drink_oleato +\
     menu_drink_hot_coffee +\
@@ -298,7 +342,8 @@ menu_items =\
     menu_drink_hot_drink +\
     menu_drink_frappuccino_drink +\
     menu_drink_cold_coffee +\
-    menu_drink_iced_tea
+    menu_drink_iced_tea +\
+    menu_drink_cold_drink
 
 menu_items_sub =\
     menu_drink_hot_coffee_subcategory +\
@@ -306,7 +351,8 @@ menu_items_sub =\
     menu_drink_hot_drink_subcategory +\
     menu_drink_frappuccino_subcategory +\
     menu_drink_cold_coffee_subcategory +\
-    menu_drink_iced_tea_subcategory
+    menu_drink_iced_tea_subcategory +\
+    menu_drink_cold_drink_subcategory
 
 cursor.executemany('''
     INSERT INTO menu_item_details (item_id, name, price, description, subcategory)
